@@ -171,7 +171,7 @@ td, th {
 <INPUT type="button" value="Add Row" onclick="addRow('dataTable')" />
 <INPUT type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
 
-<INPUT type="button"  value="Next" style="position: absolute; right: 70; onclick="goToOther()"  />
+<INPUT type="button"  onclick="location.href = 'payment.jsp';" value="Next" style="position: absolute; right: 70;"  />
 		<TR>
 			<!-- <TD><INPUT type="checkbox" name="chk"/></TD> -->
 			<td><div ><input type="checkbox" style="width:100%;"></div> </td>
